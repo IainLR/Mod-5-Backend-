@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       resources :meals
       resources :foods
       resources :meal_plans
+      resources :goals
     end
   end
 end
