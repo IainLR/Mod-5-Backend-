@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(version: 2020_11_26_022733) do
     t.integer "calories"
     t.string "name"
     t.string "blds"
+    t.integer "carbs"
+    t.integer "fat"
+    t.integer "protein"
     t.bigint "meal_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

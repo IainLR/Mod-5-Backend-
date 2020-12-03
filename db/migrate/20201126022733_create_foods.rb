@@ -4,6 +4,9 @@ class CreateFoods < ActiveRecord::Migration[6.0]
       t.integer :calories 
       t.string :name
       t.string :blds
+      t.integer :carbs
+      t.integer :fat
+      t.integer :protein
       t.belongs_to :meal
       t.timestamps
     end
